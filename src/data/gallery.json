@@ -1,56 +1,74 @@
 [
 	{
 		"id": 1,
-		"title": "pexels-adrienn",
-		"image": "/src/assets/images/gallery/pexels-adrienn-638530-1537635.jpg",
-		"alt": "pexels-adrienn-638530-1537635"
+		"title": "chips-mini-tacos",
+		"image": "/src/assets/images/gallery/chips-mini-tacos.jpg",
+		"alt": "bowl of chips and dip"
 	},
 	{
 		"id": 2,
-		"title": "pexels-annija-mieze",
-		"image": "/src/assets/images/gallery/pexels-annija-mieze-427042079-15197931.jpg",
-		"alt": "pexels-annija-mieze-427042079-15197931"
+		"title": "big-dish-variety",
+		"image": "/src/assets/images/gallery/big-dish-variety.jpg",
+		"alt": "a variety of delicious dishes"
 	},
 	{
 		"id": 3,
-		"title": "pexels-enginakyurt",
-		"image": "/src/assets/images/gallery/pexels-enginakyurt-1487511.jpg",
-		"alt": "pexels-enginakyurt-1487511"
+		"title": "corn-skillet",
+		"image": "/src/assets/images/gallery/corn-skillet.jpg",
+		"alt": "grilled corn in a skillet"
 	},
 	{
 		"id": 4,
-		"title": "pexels-fariphotography",
-		"image": "/src/assets/images/gallery/pexels-fariphotography-905847.jpg",
-		"alt": "pexels-fariphotography-905847"
+		"title": "dish-and-drink-side",
+		"image": "/src/assets/images/gallery/dish-and-drink-side.jpg",
+		"alt": "seasoned dish with a drink"
 	},
 	{
 		"id": 5,
-		"title": "pexels-narda-yescas",
-		"image": "/src/assets/images/gallery/pexels-narda-yescas-724842-1566837.jpg",
-		"alt": "pexels-narda-yescas-724842-1566837"
+		"title": "three-tacos-three-dips",
+		"image": "/src/assets/images/gallery/three-tacos-three-dips.jpg",
+		"alt": "a large dish with six tacos"
 	},
 	{
 		"id": 6,
-		"title": "pexels-pixabay",
-		"image": "/src/assets/images/gallery/pexels-pixabay-262978.jpg",
-		"alt": "pexels-pixabay-262978"
+		"title": "big-glass-lemon",
+		"image": "/src/assets/images/gallery/big-glass-lemon.jpg",
+		"alt": "pina colada"
 	},
 	{
 		"id": 7,
-		"title": "pexels-rachel-claire",
-		"image": "/src/assets/images/gallery/pexels-rachel-claire-5531424.jpg",
-		"alt": "pexels-rachel-claire-5531424"
+		"title": "server-dish",
+		"image": "/src/assets/images/gallery/server-dish.jpg",
+		"alt": "server with two entrees"
 	},
 	{
 		"id": 8,
-		"title": "pexels-vlah",
-		"image": "/src/assets/images/gallery/pexels-vlah-3084550.jpg",
-		"alt": "pexels-vlah-3084550"
+		"title": "fork-zoom",
+		"image": "/src/assets/images/gallery/fork-zoom.jpg",
+		"alt": "people eating"
 	},
 	{
 		"id": 9,
-		"title": "pexels-wildlittlethingsphoto",
-		"image": "/src/assets/images/gallery/pexels-wildlittlethingsphoto-696218.jpg",
-		"alt": "pexels-wildlittlethingsphoto-696218"
+		"title": "breakfast",
+		"image": "/src/assets/images/gallery/breakfast.jpg",
+		"alt": "breakfast dish"
+	},
+	{
+		"id": 10,
+		"title": "jarritos-dish",
+		"image":"/src/assets/images/gallery/jarritos-dish.jpg",
+		"alt": "grilled shrimp with a drink"
+	},
+	{
+		"id": 11,
+		"title": "avacado-toast",
+		"image":"/src/assets/images/gallery/avacado-toast.jpg",
+		"alt": "a toast with meat"
+	},
+	{
+		"id": 12,
+		"title": "tacos-onions",
+		"image":"/src/assets/images/gallery/tacos-onions.jpg",
+		"alt": "meat tacos with toppings"
 	}
 ]
