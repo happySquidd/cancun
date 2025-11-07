@@ -1,397 +1,664 @@
 [
 	{
 		"id": 1,
-		"slug": "antipasti",
-		"prettyName": "Antipasti",
-		"description": "Start your meal with one of our delicious appetizers.",
+		"slug": "appetizers",
+		"prettyName": "Appetizers",
+		"description": "Start your meal with one of our delicious appetizers. (All nachos come with cheese)",
 		"plates": [
 			{
-				"name": "Bruschetta",
-				"description": "Grilled bread topped with fresh tomatoes, garlic, basil, and olive oil.",
-				"price": 6.5
-			},
-			{
-				"name": "Caprese",
-				"description": "Slices of mozzarella, tomatoes, and basil drizzled with balsamic glaze.",
+				"name": "Nachos Fajitas",
+				"description": "Chicken or steak with sauteed onions, tomatoes, and bell peppers.",
 				"price": 8.5
 			},
 			{
-				"name": "Arancini",
-				"description": "Crispy risotto balls filled with cheese and served with marinara sauce.",
+				"name": "Mixed Fajita Nachos",
+				"description": "Chicken and steak with sauteed onions, tomatoes, and bell peppers.",
+				"price": 9.0
+			},
+			{
+				"name": "Texas Fajita Nachos",
+				"description": "With steak, chicken and shrimp.",
+				"price": 9.75
+			},
+			{
+				"name": "Grilled Chicken or Steak Nachos",
+				"description": "Nachos with grilled chicken or steak",
 				"price": 7.5
 			},
 			{
-				"name": "Prosciutto e Melone",
-				"description": "Cured ham paired with sweet cantaloupe.",
-				"price": 9
+				"name": "Pork Carnitas Nachos",
+				"description": "Great savory appetizer.",
+				"price": 12
 			},
 			{
-				"name": "Antipasto Platter",
-				"description": "A selection of cured meats, cheeses, and marinated vegetables.",
-				"price": 12
+				"name":"Nachos Supreme",
+				"description": "Beef or chicken, lettuce, tomato, sour cream and guacamole",
+				"price": 7.25
+			},
+			{
+				"name": "Nachos Locos",
+				"description": "Grilled chicken and shrimp, topped with lettuce, onions, tomato and sour cream.",
+				"price": 9.75
+			},
+			{
+				"name": "Beef and Beans Nachos",
+				"description": "Nachos with beef and beans",
+				"price": 6.5
+			},
+			{
+				"name": "Cheese Nachos",
+				"description": "Nachos with cheese",
+				"price": 4.75
+			},
+			{
+				"name": "Shredded Chicken Nachos",
+				"description": "Nachos with shredded chicken mixed in",
+				"price": 6.25
+			},
+			{
+				"name": "Bean Nachos",
+				"description": "Nachos with beans mixed in",
+				"price": 5.25
+			},
+			{
+				"name":"Ground Beef Nachos",
+				"description": "Nachos with ground beef and seasoning",
+				"price": 6.25
 			}
 		]
 	},
 	{
 		"id": 2,
-		"slug": "insalate",
-		"prettyName": "Insalate",
-		"description": "Fresh and healthy salads made with seasonal ingredients.",
+		"slug": "lunch",
+		"prettyName": "Lunch specials",
+		"description": "Fresh and healthy lunch exclusive entrees. (Lunch is $1 extra after 2:30pm or Sunday)",
 		"plates": [
 			{
-				"name": "Caesar Salad",
-				"description": "Crisp romaine with parmesan, croutons, and Caesar dressing.",
-				"price": 7.5
+				"name": "Speedy Gonzales",
+				"description": "One taco, oe enchilada, choice of rice or refried beans.",
+				"price": 4.75
 			},
 			{
-				"name": "Panzanella",
-				"description": "Tuscan bread salad with tomatoes, cucumbers, and basil.",
-				"price": 8
+				"name": "Special Lunch 1",
+				"description": "Chile relleno, taco, refried beans and guacaole salad.",
+				"price": 5.75
 			},
 			{
-				"name": "Insalata Mista",
-				"description": "Mixed greens with cherry tomatoes, cucumbers, and a light vinaigrette.",
-				"price": 6.5
+				"name": "Special Lunch 2",
+				"description": "One beef burrito, mexican rice and refried beans.",
+				"price": 5.75
 			},
 			{
-				"name": "Caprese Salad",
-				"description": "Fresh mozzarella, tomatoes, and basil with balsamic reduction.",
-				"price": 9
+				"name": "Special Lunch 3",
+				"description": "Enchilada, rice and refried beans.",
+				"price": 4.75
 			},
 			{
-				"name": "Arugula Salad",
-				"description": "Peppery arugula with shaved parmesan and lemon dressing.",
-				"price": 7
+				"name": "Special Lunch 4",
+				"description": "Chile relleno, taco, refried beans and rice.",
+				"price": 5.75
+			},
+			{
+				"name": "Special Lunch 5",
+				"description": "Burrito, taco and rice.",
+				"price": 5.75
+			},
+			{
+				"name": "Special Lunch 6",
+				"description": "Chalupa, enchilada, rice and refried beans.",
+				"price": 5.75
+			},
+			{
+				"name": "Special Lunch 7",
+				"description": "Chalupa, chile relleno and rice.",
+				"price": 5.75
+			},
+			{
+				"name": "Special Lunch 8",
+				"description": "Burrioto, tamale, choice of rice or refried beans.",
+				"price": 5.75
+			},
+			{
+				"name": "Special Lunch 9",
+				"description": "Burrito, enchilada, choice of rice or refried beans.",
+				"price": 5.75
+			},
+			{
+				"name": "Special Lunch 10",
+				"description": "Enchilada, chalupa and cheese quesadilla.",
+				"price": 5.75
 			}
 		]
 	},
 	{
 		"id": 3,
-		"slug": "zuppe",
-		"prettyName": "Zuppe",
-		"description": "Warm up with one of our delicious soups.",
+		"slug": "specials",
+		"prettyName": "Cancun specials",
+		"description": "Our specialty dishes.",
 		"plates": [
 			{
-				"name": "Minestrone",
-				"description": "Hearty vegetable soup with beans and pasta.",
-				"price": 6.5
+				"name": "Pollo Fundido",
+				"description": "Two flour tortillas deep fried with chicken, topped with sour cream and nacho cheese, with a side of rice and salad.",
+				"price": 11.5
 			},
 			{
-				"name": "Zuppa Toscana",
-				"description": "Creamy soup with potatoes, sausage, and kale.",
-				"price": 7.5
+				"name": "El Combo Special Combination",
+				"description": "Chalupa, chile relleno, enchilada, beef taco, burrito, ruce and refrued beans.",
+				"price": 14.99
 			},
 			{
-				"name": "Tomato Basil Soup",
-				"description": "Rich tomato soup with fresh basil.",
-				"price": 5.5
+				"name": "California Special Burrito",
+				"description": "Large burrito filled with your choice of grilled chicken or steak, sauteed onions, bell peppers, tomatoes, rice and beans. Topped with melted cheese, red sauce and sour cream.",
+				"price": 8.99
 			},
 			{
-				"name": "Lentil Soup",
-				"description": "Healthy lentil soup with vegetables and herbs.",
-				"price": 6
+				"name": "Soft or Fried Chimichangas",
+				"description": "Two flour tortillas deep fried, filled with your choice of beef tips or chicken. Topped with lettuce, tomatoes, sour cream, red sauce, nacho cheese, and guacamole. Servede with choice of rice and beans.",
+				"price": 11.5
 			},
 			{
-				"name": "Seafood Bisque",
-				"description": "Creamy soup with a medley of seafood.",
-				"price": 9.5
+				"name": "Mexican Chilaquiles",
+				"description": "Fried Torilla chips blended with our special ranchero sauce and topped with chicken or beef tips and cheese.",
+				"price": 8.99
+			},
+			{
+				"name": "Pizza Mexicana",
+				"description": "Two flat flour tortillas with choice of ground beef, chicken. Topped with melted cheese and red sauce. Lettuce and diced tomatoes by request. Grilled chicken or steak $1 extra.",
+				"price": 8.99
+			},
+			{
+				"name": "Taquitos Mexicanos",
+				"description": "Order of four fried corn taquitos (two beef and two chicken). Served with lettuce, guacamole, tomatoes and sour cream.",
+				"price": 8.5
+			},
+			{
+				"name": "Chiles Poblanos",
+				"description": "Two cheese stuffed poblano peppers. Topped with ranchero sauce and sour cream, Served with ricem beans and choice of corn or flour tortillas. Option to add meat for extra.",
+				"price": 12.99
+			},
+			{
+				"name": "Cancun Grill",
+				"description": "A choice of grilled chicken breast or carne asada (a thin sliced steak) with zucchini, squash and broccoli. Topped with melted cheese and served with rice and house salad.",
+				"price": 14.5
+			},
+			{
+				"name": "Bistec a Caballo",
+				"description": "Tender thin slice steak topped grilled onion and a Ranchero fried egg. Served with rice, beans and three tortillas.",
+				"price": 15.99
 			}
 		]
 	},
 	{
 		"id": 4,
-		"slug": "first-courses",
-		"prettyName": "First Courses",
-		"description": "Savor the flavors of our exquisite first courses.",
+		"slug": "steak",
+		"prettyName": "Steak Courses",
+		"description": "Savor the flavors of our exquisite steak courses.",
 		"plates": [
 			{
-				"name": "Spaghetti Carbonara",
-				"description": "Classic pasta with pancetta, eggs, and parmesan.",
-				"price": 12
+				"name": "Steak Tejano",
+				"description": "Grilled ribeye steak and six sauteed shrimp grilled with onions and bell peppers. Topped with ranchero sauce. Served with rice, beans, house salad and tortillas.",
+				"price": 12.99
 			},
 			{
-				"name": "Lasagna Bolognese",
-				"description": "Layered pasta with rich meat sauce and béchamel.",
-				"price": 14
+				"name": "Carne Asada",
+				"description": "Tender thin sliced steak with rice, beans and guacamole salad. Served with tortillas.",
+				"price": 12.99
 			},
 			{
-				"name": "Risotto alla Milanese",
-				"description": "Creamy saffron risotto.",
-				"price": 13.5
+				"name": "Cancun Asada",
+				"description": "A tender thin sliced steak, topped with six sauteed shrimp, grilled onions and melted cheese. Served with rice, beans, guacamole salad and flour or corn tortillas.",
+				"price": 14.99
 			},
 			{
-				"name": "Penne Arrabbiata",
-				"description": "Spicy tomato sauce with garlic and chili peppers.",
-				"price": 11.5
+				"name": "Cancun Cheese Steak",
+				"description": "Two soft flour tortillas, filled with thin sliced steak, grilled onions and topped with nacho cheese. Served with lettuce, tomatoes and your choice of rice and beans.",
+				"price": 10.5
 			},
 			{
-				"name": "Gnocchi al Pesto",
-				"description": "Potato dumplings in basil pesto sauce.",
-				"price": 12.5
+				"name": "Steak Ranchero",
+				"description": "Grilled ribeye steak. Served with rice, beans, flour tortillas and guacamole salad. Topped with our special ranchero sauce.",
+				"price": 13.99
 			}
 		]
 	},
 	{
 		"id": 5,
-		"slug": "second-courses",
-		"prettyName": "Second Courses",
-		"description": "Indulge in our hearty and satisfying main courses.",
+		"slug": "pork",
+		"prettyName": "Pork",
+		"description": "Enjoy our pork dishes.",
 		"plates": [
 			{
-				"name": "Osso Buco",
-				"description": "Braised veal shank with gremolata and risotto.",
-				"price": 19.5
+				"name": "Burritos de Puerco",
+				"description": "Two flour tortillas with pork and grilled onions. Topped with melted cheese and anchero sauce. Served with a choice of rice or beans, lettuce and pico de gallo.",
+				"price": 10.99
 			},
 			{
-				"name": "Pollo alla Cacciatora",
-				"description": "Chicken stewed with tomatoes, peppers, and herbs.",
-				"price": 16.5
-			},
-			{
-				"name": "Bistecca alla Fiorentina",
-				"description": "Grilled T-bone steak seasoned with olive oil and herbs.",
-				"price": 25
-			},
-			{
-				"name": "Grilled Sea Bass",
-				"description": "Fresh sea bass with lemon and herbs.",
-				"price": 18.5
-			},
-			{
-				"name": "Eggplant Parmesan",
-				"description": "Baked layers of eggplant, marinara, and mozzarella.",
-				"price": 14.5
+				"name": "Pork Carnitas",
+				"description": "Tender fried pork, served with grilled onions, rice, beans, lettuce, tomatoes and guacamole. Served with flour tortillas.",
+				"price": 10.99
 			}
 		]
 	},
 	{
 		"id": 6,
-		"slug": "side-dishes",
-		"prettyName": "Side Dishes",
-		"description": "Complement your meal with our delightful side dishes.",
+		"slug": "Chicken",
+		"prettyName": "Chicken",
+		"description": "Enjoy our chicken entrees.",
 		"plates": [
 			{
-				"name": "Grilled Vegetables",
-				"description": "A mix of seasonal vegetables grilled to perfection.",
-				"price": 5.5
+				"name": "Arroz con Pollo",
+				"description": "A bed of rice topped with grilled chicken and melted cheese.",
+				"price": 7.99
 			},
 			{
-				"name": "Roasted Potatoes",
-				"description": "Crispy potatoes seasoned with rosemary and olive oil.",
-				"price": 4.5
+				"name": "Pollo Loco",
+				"description": "Grilled chicken, onions, bell peppers and mushrooms. Served on a bed of rice and melted cheese.",
+				"price": 8.99
 			},
 			{
-				"name": "Spinach with Garlic",
-				"description": "Sautéed spinach with fresh garlic.",
-				"price": 5
+				"name": "Papo's Special",
+				"description": "A grilled chicken breast topped with sauteed onions, mushrooms, spinach and smothered with melted cheese. Served with rice and house salad.",
+				"price": 12.99
 			},
 			{
-				"name": "Polenta",
-				"description": "Creamy cornmeal with parmesan cheese.",
-				"price": 6
+				"name": "El Bigotes Special",
+				"description": "A grilled chicken breast on a bed of rice. Topped grilled onions, lettuce, pico de gallo, sour cream, guacamole, our spicy salsa verde and melted cheese.",
+				"price": 12.99
 			},
 			{
-				"name": "Caprese Side",
-				"description": "A smaller portion of mozzarella, tomato, and basil.",
-				"price": 4.5
+				"name": "Mole Maria",
+				"description": "Chicken breasts, special mole sauce, rice and beans. Served with flour tortillas.",
+				"price": 11.99
+			},
+			{
+				"name": "Pollo Asado",
+				"description": "A delicious chicken breast with sauteed onions. Served with lettuce, pico de gallo, rice, beans and flour tortillas.",
+				"price": 11.99
+			},
+			{
+				"name": "Choripollo",
+				"description": "Chicken breast with grilled onions, chorizo (Mexican sausage) and melted cheese. Served with rice, beans and corn or flour tortillas.",
+				"price": 12.99
+			},
+			{
+				"name": "Pollo Encremado",
+				"description": "Shredded chicken with cheese and sour cream. Served with a side of rice and 3 tortillas.",
+				"price": 8.5
 			}
 		]
 	},
 	{
 		"id": 7,
-		"slug": "pizza",
-		"prettyName": "Pizza",
-		"description": "Enjoy our freshly baked pizzas with a variety of toppings.",
+		"slug": "delacase",
+		"prettyName": "De La Casa",
+		"description": "Enjoy our original dishes.",
 		"plates": [
 			{
-				"name": "Margherita",
-				"description": "Classic pizza with tomato, mozzarella, and basil.",
+				"name": "El Burro de la Roqueta",
+				"description": "Two flour tortillas, filled with delicious grilled chicken and onions. Topped with melted cheese, ranchero sauce and pico de gallo. Choice of rice or beans.",
 				"price": 10.5
 			},
 			{
-				"name": "Quattro Stagioni",
-				"description": "Four seasons pizza with artichokes, ham, mushrooms, and olives.",
-				"price": 12.5
+				"name": "Burriotos Tipicos",
+				"description": "Two flour tortillas, filled with beef tips or chicken, beans, topped with nacho cheese sauce with guacamole salad.",
+				"price": 9.5
 			},
 			{
-				"name": "Diavola",
-				"description": "Spicy salami with tomato sauce and mozzarella.",
-				"price": 11.5
+				"name": "Burritos Deluxe",
+				"description": "Two burritos (one chicken and beans, and one beef and beans). Topped with lettuce tomatoes, guacamole and sour cream.",
+				"price": 9.5
 			},
 			{
-				"name": "Prosciutto e Funghi",
-				"description": "Ham and mushrooms with mozzarella and tomato sauce.",
-				"price": 12
+				"name": "Yolandas",
+				"description": "Three chicken enchiladas, topped with our special enchilada sauce. Served with rice and guacamole salad.",
+				"price": 8.5
 			},
 			{
-				"name": "Vegetariana",
-				"description": "A mix of seasonal vegetables and mozzarella.",
-				"price": 11
+				"name": "Enchiladas Supreme",
+				"description": "One chicken enchilada, one bean enchilada, one beef enchilada, one cheese enchilada. Topped with enchilada sauce, lettuce, tomato and sour cream.",
+				"price": 9.99
+			},
+			{
+				"name": "Cancun Super",
+				"description": "Five different enchiladas: beef, chicken, shredded beef, cheese, bean. Topped with our special enchilada sauce, cheese, lettuce, tomatoes, sour cream and guacamole.",
+				"price": 10.99
+			},
+			{
+				"name": "Elmer's Special",
+				"description": "A large quesadilla filled with grilled chicken, steak, shrimp, pork, ham, peppers, tomatoes and onions. Topped with our melted cheese, pico de gallo and sour cream.",
+				"price": 15.5
+			},
+			{
+				"name": "Choripapas",
+				"description": "A bed of french fries topped with grilled chicken, steak, shrimp, sausage, peppers, tomatoes, onions, sour cream and melted cheese.",
+				"price": 16.5
 			}
 		]
 	},
 	{
 		"id": 8,
-		"slug": "specials",
-		"prettyName": "Specials",
-		"description": "Discover our chef's special creations for the day.",
+		"slug": "seafood",
+		"prettyName": "Seafood",
+		"description": "Discover our seafood selections.",
 		"plates": [
 			{
-				"name": "Truffle Risotto",
-				"description": "Creamy risotto infused with black truffle.",
-				"price": 18.5
+				"name": "Shrimp Cocktail",
+				"description": "Shrimp with diced avacado and pico de gallo in our special cocktail sauce. Served with saltine crackers.",
+				"price": 14.99
 			},
 			{
-				"name": "Lobster Ravioli",
-				"description": "Homemade ravioli filled with lobster in a saffron sauce.",
-				"price": 20.5
+				"name": "Camarones a la Diabla",
+				"description": "Grilled shrimp, topped with spicy red salsa. Served with rice, salad and flour tortillas.",
+				"price": 12.99
 			},
 			{
-				"name": "Porcini Mushroom Pasta",
-				"description": "Fresh pasta with porcini mushrooms and a cream sauce.",
-				"price": 17.5
+				"name": "Arroz con Camaron",
+				"description": "A bed of rice topped with grilled shrimp cooked with bell peppers, onions and melted cheese.",
+				"price": 10.99
 			},
 			{
-				"name": "Veal Marsala",
-				"description": "Tender veal in a Marsala wine sauce.",
-				"price": 19.5
+				"name": "Maria's Special",
+				"description": "A delicious grilled tilapia fillet with grilled shrimp. Served with rice, lettuce, sour cream, pico de gallo and corn or flour tortillas.",
+				"price": 13.99
 			},
 			{
-				"name": "Stuffed Zucchini Flowers",
-				"description": "Crispy zucchini flowers filled with ricotta and herbs.",
-				"price": 15.5
+				"name": "Grilled Tilapia",
+				"description": "Grilled fillet of tilapia, served with rice and an array of sauteed vegetables and tortillas.",
+				"price": 12.99
+			},
+			{
+				"name": "Fish or Shrimp Tacos",
+				"description": "Three corn or flour tortillas filled with your choice of grilled shrimp or grilled tilapia, lettuce, pico de gallo and cheese. Served with rice, refried beans and lime.",
+				"price": 10.5
+			},
+			{
+				"name": "Cancun Special",
+				"description": "Tilapia fillet and grilled shrimp on a bed of rice smothered with spinach and chipotle sauce. Served with a house salad and tortillas.",
+				"price": 14.5
+			},
+			{
+				"name": "Seafood Chimichanga",
+				"description": "One large flour tortilla rolled and fried with shrimp, tilapia fillet, sour cream and rice. Topped with white melted cheese, pico de gallo cilantro and avocado.",
+				"price": 13.99
 			}
 		]
 	},
 	{
 		"id": 9,
-		"slug": "kids-menu",
-		"prettyName": "Kids Menu",
-		"description": "Delicious and fun meals for our younger guests.",
+		"slug": "sides",
+		"prettyName": "Sides",
+		"description": "Our sides",
 		"plates": [
 			{
-				"name": "Mini Margherita",
-				"description": "Kid-sized pizza with tomato and mozzarella.",
-				"price": 6.5
+				"name": "Order of rice",
+				"description": "",
+				"price": 2.75
 			},
 			{
-				"name": "Spaghetti Butter & Cheese",
-				"description": "Simple pasta with butter and parmesan.",
-				"price": 5.5
+				"name": "Order of beans",
+				"description": "",
+				"price": 2.75
 			},
 			{
-				"name": "Chicken Nuggets & Fries",
-				"description": "Crispy chicken bites with golden fries.",
-				"price": 7
+				"name": "Corn or Flour Tortillas (3)",
+				"description": "",
+				"price": 1.25
 			},
 			{
-				"name": "Mini Lasagna",
-				"description": "Smaller portion of our classic lasagna.",
-				"price": 7.5
+				"name": "Black Beans",
+				"description": "",
+				"price": 3.25
 			},
 			{
-				"name": "Mac & Cheese",
-				"description": "Cheesy pasta perfect for kids.",
-				"price": 6
+				"name": "French Fries",
+				"description": "",
+				"price": 3.5
+			},
+			{
+				"name": "Tamale",
+				"description": "",
+				"price": 3.99
 			}
 		]
 	},
 	{
 		"id": 10,
-		"slug": "desserts",
-		"prettyName": "Desserts",
-		"description": "End your meal with one of our sweet and delightful desserts.",
+		"slug": "sides-quesadillas",
+		"prettyName": "Quesadillas A la Carte",
+		"description": "Our selection of quesadillas.",
 		"plates": [
 			{
-				"name": "Tiramisu",
-				"description": "Classic Italian dessert with layers of mascarpone and coffee-soaked ladyfingers.",
+				"name": "Cheese",
+				"description": "",
+				"price": 3.99
+			},
+			{
+				"name": "Ground Beef",
+				"description": "",
+				"price": 4.99
+			},
+			{
+				"name": "Shredded Chicken",
+				"description": "",
+				"price": 4.99
+			},
+			{
+				"name": "Grilled Chicken or Steak",
+				"description": "",
+				"price": 5.99
+			},
+			{
+				"name": "Shrimp Quesadilla",
+				"description": "",
+				"price": 5.99
+			},
+			{
+				"name": "Chicken or Steak Fajita Quesadilla",
+				"description": "",
 				"price": 6.5
-			},
-			{
-				"name": "Panna Cotta",
-				"description": "Creamy custard dessert with a berry coulis.",
-				"price": 6
-			},
-			{
-				"name": "Cannoli",
-				"description": "Crispy pastry shells filled with sweet ricotta cream.",
-				"price": 5.5
-			},
-			{
-				"name": "Gelato",
-				"description": "Choice of two scoops of our homemade Italian ice cream.",
-				"price": 4.5
-			},
-			{
-				"name": "Affogato",
-				"description": "Vanilla gelato topped with a shot of espresso.",
-				"price": 5.5
 			}
 		]
 	},
 	{
 		"id": 11,
-		"slug": "beverages",
-		"prettyName": "Beverages",
-		"description": "Refresh yourself with our selection of drinks.",
+		"slug": "tacos",
+		"prettyName": "Tacos",
+		"description": "Our selection of tacos.",
 		"plates": [
 			{
-				"name": "Sparkling Water",
-				"description": "Chilled sparkling mineral water.",
+				"name": "Soft shell - Chicken or Ground Beef",
+				"description": "",
+				"price": 2.99
+			},
+			{
+				"name": "Hard Shell - Chicken or Ground Beef",
+				"description": "",
 				"price": 2.5
 			},
 			{
-				"name": "Still Water",
-				"description": "Chilled still mineral water.",
-				"price": 2
+				"name": "Carne Asada",
+				"description": "",
+				"price": 3.99
 			},
 			{
-				"name": "Espresso",
-				"description": "Strong Italian coffee shot.",
-				"price": 2.5
+				"name": "Grilled Chicken",
+				"description": "",
+				"price": 3.99
 			},
 			{
-				"name": "Cappuccino",
-				"description": "Espresso with steamed milk and foam.",
-				"price": 3.5
-			},
-			{
-				"name": "Lemonade",
-				"description": "Fresh homemade lemonade.",
-				"price": 3
+				"name": "Pork",
+				"description": "",
+				"price": 3.99
 			}
 		]
 	},
 	{
 		"id": 12,
-		"slug": "wines",
-		"prettyName": "Wines",
-		"description": "Choose from our curated list of fine wines.",
+		"slug": "enchiladas",
+		"prettyName": "Enchiladas",
+		"description": "Our selection of enchiladas.",
 		"plates": [
 			{
-				"name": "Chianti",
-				"description": "Classic red wine from Tuscany.",
-				"price": 6.5
+				"name": "Bean",
+				"description": "",
+				"price": 2.5
 			},
 			{
-				"name": "Pinot Grigio",
-				"description": "Crisp and refreshing white wine.",
-				"price": 6
+				"name": "Beef",
+				"description": "",
+				"price": 3.0
 			},
 			{
-				"name": "Prosecco",
-				"description": "Sparkling wine from Veneto.",
-				"price": 7
+				"name": "Cheese",
+				"description": "",
+				"price": 2.5
 			},
 			{
-				"name": "Barolo",
-				"description": "Full-bodied red wine from Piedmont.",
-				"price": 9
+				"name": "Chicken",
+				"description": "",
+				"price": 3.0
+			}
+		]
+	},
+	{
+		"id": 13,
+		"slug": "burritos",
+		"prettyName": "Burritos",
+		"description": "Our selection of burritos.",
+		"plates": [
+			{
+				"name": "Beef or Chicken",
+				"description": "",
+				"price": 4.99
 			},
 			{
-				"name": "Rosé",
-				"description": "Light and fruity wine perfect for any meal.",
-				"price": 6.5
+				"name": "Beef and Bean",
+				"description": "",
+				"price": 5.25
+			},
+			{
+				"name": "Scrambled Eggs Burrito",
+				"description": "",
+				"price": 3.99
+			}
+		]
+	},
+	{
+		"id": 14,
+		"slug": "fajitas",
+		"prettyName": "Fajitas",
+		"description": "Enjoy our selection of house made fajitas",
+		"plates": [
+			{
+				"name": "Fajitas",
+				"description": "Tender sliced beef or chicken with bell peppers, toatoes, and onions. Served with a side of guacamole salad, rice and refried beans.",
+				"price": 11.99
+			},
+			{
+				"name": "Mixed Fajitas",
+				"description": "Same as normal fajitas but with both beef and chicken.",
+				"price": 12.99
+			},
+			{
+				"name": "Texas Fajitas",
+				"description": "Tender beef, chicken and shrimp cooked with onions, tomatoes and bell peppers. Served with rice, refried beans and guacamole salad.",
+				"price": 13.99
+			},
+			{
+				"name": "Special Fajitas for Two",
+				"description": "Tender beef, chicken breast and shrimp, with a side of refried beans, rice and guacamole salad.",
+				"price": 24.99
+			},
+			{
+				"name": "Vegitarian Fajitas",
+				"description": "Grilled array of fresh vegetables including zucchini, squash, brocoli, onions, caulflower, bell peppers, tomatoes and mushrooms, with a side of rice, refried beans, and guacamole salad.",
+				"price": 11.5
+			},
+			{
+				"name": "Fajitas Tropical",
+				"description": "Shrimp, chicken and ham, with pineapple and mushrooms. Topped with salad and cheese sauce. Served with rice and refried beans.",
+				"price": 14.99
+			},
+			{
+				"name": "Shrimp Fajitas",
+				"description": "Shrimp cooked with onions, tomatoes and bell peppers. Served with rice, refried beans and guacamole salad.",
+				"price": 13.99
+			},
+			{
+				"name": "Cnacun Parrillada",
+				"description": "A delicious combination of steak, chicken, shrimp, pork, cornitas, chorizo, onions, bell peppers and tomatoes. Served with rice, refried beans, lettuce and pico de gallo.",
+				"price": 14.99
+			}
+		]
+	},
+	{
+		"id": 15,
+		"slug": "quesadillas",
+		"prettyName": "Quesadillas",
+		"description": "Choose from our house recipie quesadillas.",
+		"plates": [
+			{
+				"name": "Quesadilla Roja (RO HA)",
+				"description": "Our stuffed cheese quesadilla with your choice of ground beef, beef tips, shredded beef or chicken. Served with lettuce, diced tomatoes, sour cream and our supreme sauce. Choice of refried beans or rice.",
+				"price": 8
+			},
+			{
+				"name": "Quesadilla Verde (VARE-DAY)",
+				"description": "Same choices as Roja. Served with lettuce, sour cream,diced tomatoes and guacamole.",
+				"price": 8.5
+			},
+			{
+				"name": "Cnacun Quesadilla",
+				"description": "Filled with grilled chicken or steak and onions. Served with a side of lettuce, tomatoes, sour cream and guacamole.",
+				"price": 10.5
+			},
+			{
+				"name": "Mushroom Quesadilla",
+				"description": "Served with a choice of rice or refried beans and salad.",
+				"price": 8
+			},
+			{
+				"name": "Spinach Quesadilla",
+				"description": "Served with a choice of rice or refried beans and salad.",
+				"price": 8
+			}
+		]
+	},
+	{
+		"id": 16,
+		"slug": "vegitarian",
+		"prettyName": "Vegitarian",
+		"description": "Our vegitarian options.",
+		"plates": [
+			{
+				"name": "Vegitarian A",
+				"description": "One bean burrito, one cheese enchilada, one tostada with beans and nacho cheese.",
+				"price": 7.99
+			},
+			{
+				"name": "Vegitarian B",
+				"description": "One chalupa, one cheese enchilada and order of refried beans.",
+				"price": 7.99
+			},
+			{
+				"name": "Vegitarian C",
+				"description": "One bean burrito, one quesadilla and one chalupa.",
+				"price": 7.99
+			},
+			{
+				"name": "Vegitarian D",
+				"description": "Bean tostaguac, cheese enchilada and rice.",
+				"price": 7.99
+			},
+			{
+				"name": "Vegitarian E",
+				"description": "Bean burrito with nacho cheese, cheese enchilada and a cheese quesadilla.",
+				"price": 7.99
+			},
+			{
+				"name": "Vegitarian F",
+				"description": "One large quesadilla with tomatoes, mushrooms, onions, peppers, choice of rice or refried beans. Served with guacamole salad and sour cream.",
+				"price": 8.99
 			}
 		]
 	}
