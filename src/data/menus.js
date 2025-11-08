@@ -26,7 +26,7 @@ export const menuMain = [
     },
     {
         name: "Book",
-        url: "/book",
+        url: "/",
         highlighted: true,
     },
 ];
