@@ -24,6 +24,8 @@ import Mussels from "~/assets/images/mussels2.png";
 import SixTacos from "~/assets/images/gallery/six-tacos.jpg"
 import Burrito from "~/assets/images/gallery/sloppy-dish.jpg"
 import Special from "~/assets/images/special-dish.jpg"
+import Enchiladas from "~/assets/images/enchiladas.jpg"
+import Shrimp from "~/assets/images/gallery/jarritos-dish.jpg"
 ---
 
 <Layout title="Home" pageTitle="Home" description="Welcome to our restaurant!">
@@ -41,7 +43,7 @@ import Special from "~/assets/images/special-dish.jpg"
 
 
 				<div class="mt-8 flex items-center gap-x-8">
-					<Button url="/book">Book now</Button>
+					<Button url="/">Book now</Button>
 					<ButtonCallUs />
 				</div>
 			</div>
@@ -59,7 +61,7 @@ import Special from "~/assets/images/special-dish.jpg"
 		</Hero>
 	</Section>
 
-	<WideImage image={DecorativeImage} alt="Just an image" class:list={"aspect-video lg:aspect-[16/6]"} />
+	<WideImage image={DecorativeImage} alt="" class:list={"aspect-video lg:aspect-[16/6]"} />
 
 	<Section class:list={"bg-white"}>
 		<Heading>
@@ -126,18 +128,22 @@ import Special from "~/assets/images/special-dish.jpg"
 	<Section class:list={"bg-white"}>
 		<Hero>
 			<div slot="hero-content-left" class="prose lg:order-2">
-				<h1 class="font-black">Pizza</h1>
+				<h1 class="font-black">Enchiladas</h1>
 
 				<p>
-					Pizza is a beloved dish that originated in Italy and has since become a global sensation. Its
-					versatility allows for endless combinations of toppings, from classic margherita with fresh
-					tomatoes, mozzarella, and basil, to more adventurous options like barbecue chicken or vegan cheese.
+					Indulge in a timeless masterpiece of Mexican cuisine with our 
+					celebrated enchiladas. Each dish begins with tender corn tortillas, 
+					hand-rolled around your choice of savory fillings—from perfectly seasoned 
+					shredded chicken and robust beef to creamy cheese and fresh seasonal vegetables. 
+					
 				</p>
 
 				<p>
-					Whether enjoyed at a cozy pizzeria or delivered to your doorstep, pizza brings people together and
-					satisfies cravings like no other food. Beyond its delicious taste, pizza also holds cultural
-					significance. It is often associated with gatherings, celebrations, and comfort.
+					We then lovingly blanket them in our rich, house-made sauces, 
+					whether you prefer the smoky depth of our traditional red chili 
+					sauce or the bright, tangy zest of our classic green tomatillo sauce. 
+					Baked until bubbling and topped with just the right amount of cotija or crema, 
+					our enchiladas offer a warm, comforting, and deeply satisfying journey into authentic Mexican flavor.
 				</p>
 
 				<div class="mt-8">
@@ -160,11 +166,10 @@ import Special from "~/assets/images/special-dish.jpg"
 			</div>
 			<div slot="hero-content-right">
 				<Picture
-					class:list={"mx-auto"}
-					src={PizzaHero}
-					height={600}
+					class:list={"mx-auto rounded-2xl h-150 object-cover"}
+					src={Enchiladas}
 					formats={["avif", "webp"]}
-					alt="A description of my image."
+					alt=""
 				/>
 			</div>
 		</Hero>
@@ -176,11 +181,11 @@ import Special from "~/assets/images/special-dish.jpg"
 				<Badge color="red" title="delicious" />
 				<h2 class="font-black h2 !my-4">Plate of the week</h2>
 
-				<span class="text-brand-red text-2xl font-bold italic">Fresh Mussels!</span>
+				<span class="text-brand-red text-2xl font-bold italic">Fresh Shrimp!</span>
 
 				<p>
 					Our plate of the week is a delicious dish that changes every week. This week, we're featuring fresh
-					mussels cooked in a white wine and garlic sauce, served with a side of crispy fries. Don't miss out
+					grilled shrimp in a white wine and garlic sauce, served with a side of crispy fries. Don't miss out
 					on this limited-time offer!
 				</p>
 
@@ -190,11 +195,10 @@ import Special from "~/assets/images/special-dish.jpg"
 			</div>
 			<div slot="hero-content-right">
 				<Picture
-					class:list={"mx-auto"}
-					src={Mussels}
-					height={600}
+					class:list={"mx-auto rounded-2xl h-120 object-cover"}
+					src={Shrimp}
 					formats={["avif", "webp"]}
-					alt="A description of my image."
+					alt=""
 				/>
 			</div>
 		</Hero>
