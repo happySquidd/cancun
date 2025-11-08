@@ -27,6 +27,7 @@ import Special from "~/assets/images/special-dish.jpg"
 import Enchiladas from "~/assets/images/enchiladas.jpg"
 import Shrimp from "~/assets/images/gallery/jarritos-dish.jpg"
 import Sides from "~/assets/images/gallery/sloppy-dish.jpg"
+import Maps from "~/assets/images/maps_cancun.png"
 ---
 
 <Layout title="Home" pageTitle="Home" description="Welcome to our restaurant!">
@@ -296,11 +297,11 @@ import Sides from "~/assets/images/gallery/sloppy-dish.jpg"
 	<Section class:list={"bg-white"}>
 		<Hero>
 			<div slot="hero-content-left" class="prose max-w-none">
-				<Badge color="red" title="benvenuto" />
+				<Badge color="red" title="welcome" />
 				<h2 slot="heading-title" class="font-black text-brand-red h2 !my-4">Drop by and say hello</h2>
 				<div slot="heading-content">
 					<p>
-						We're located in the heart of the city, just a stone's throw away from the main square. Our
+						We're located in Piedmont on main road, just a short distance off of I-85. Our
 						restaurant is the perfect place to enjoy a delicious meal with friends and family.
 					</p>
 
@@ -316,11 +317,11 @@ import Sides from "~/assets/images/gallery/sloppy-dish.jpg"
 
 			<div slot="hero-content-right">
 				<Picture
-					class:list={"mx-auto"}
-					src={Dessert}
+					class:list={"mx-auto rounded-lg"}
+					src={Maps}
 					height={600}
 					formats={["avif", "webp"]}
-					alt="A description of my image."
+					alt=""
 				/>
 			</div>
 		</Hero>
