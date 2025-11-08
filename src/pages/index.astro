@@ -26,6 +26,7 @@ import Burrito from "~/assets/images/gallery/sloppy-dish.jpg"
 import Special from "~/assets/images/special-dish.jpg"
 import Enchiladas from "~/assets/images/enchiladas.jpg"
 import Shrimp from "~/assets/images/gallery/jarritos-dish.jpg"
+import Sides from "~/assets/images/gallery/sloppy-dish.jpg"
 ---
 
 <Layout title="Home" pageTitle="Home" description="Welcome to our restaurant!">
@@ -257,18 +258,21 @@ import Shrimp from "~/assets/images/gallery/jarritos-dish.jpg"
 	<Section class:list={"bg-white"}>
 		<Hero>
 			<div slot="hero-content-left" class="prose max-w-none order-2">
-				<Badge title="dolce" />
-				<h2 slot="heading-title" class="font-black text-brand-green h2 !my-4">Desserts</h2>
+				<Badge title="nachos" />
+				<h2 slot="heading-title" class="font-black text-brand-green h2 !my-4">Sides</h2>
 				<div slot="heading-content">
 					<p>
-						Indulge in our selection of sweet treats, from classic tiramisu to decadent chocolate cake. Our
-						desserts are the perfect way to end your meal on a high note.
+						Complement your meal with our array of vibrant sides, designed to enhance every bite. 
+						While many enjoy our classic offerings of fluffy Mexican rice and rich, slow-cooked 
+						refried beans, we invite you to explore the spectacular world of our nachos.
 					</p>
 
 					<p>
-						Experience the taste of Italy with our authentic dishes made from the finest ingredients.
-						Indulge in our wide variety of pizzas, pastas, and desserts, all crafted with love and
-						tradition. Whether you're dining in or taking out, we promise a memorable culinary experience.
+						Forget the basic plate—our kitchen crafts loaded nachos in several exciting styles, 
+						piled high with fresh toppings, premium melted cheese, and your choice of expertly 
+						seasoned meats, making them a shareable feast or a satisfying meal all on their own. 
+						Don't forget to scoop up a side of our creamy guacamole and zingy pico de gallo for 
+						the perfect fresh contrast!
 					</p>
 
 					<div class="mt-8">
@@ -279,9 +283,8 @@ import Shrimp from "~/assets/images/gallery/jarritos-dish.jpg"
 
 			<div slot="hero-content-right">
 				<Picture
-					class:list={"mx-auto"}
-					src={Dessert}
-					height={600}
+					class:list={"mx-auto rounded-2xl h-150 object-cover"}
+					src={Sides}
 					formats={["avif", "webp"]}
 					alt="A description of my image."
 				/>
