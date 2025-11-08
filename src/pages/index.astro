@@ -13,29 +13,32 @@ import ReviewSlider from "~/components/ReviewSlider.astro";
 
 // Images
 import PizzaHero from "~/assets/images/pizza-hero.png";
+import RiceHero from "~/assets/images/gallery/big-dish-variety.jpg"
 import Pizza from "~/assets/images/pizza.png";
 import Spaghetti from "~/assets/images/spaghetti.png";
 import Fish from "~/assets/images/fish.png";
-import DecorativeImage from "~/assets/images/pexels-shvetsa-5953523.jpg";
+import DecorativeImage from "~/assets/images/gallery/three-tacos-three-dips.jpg";
 import reviewAuthors from "~/assets/images/review-authors.png";
 import Dessert from "~/assets/images/dessert.png";
 import Mussels from "~/assets/images/mussels2.png";
+import SixTacos from "~/assets/images/gallery/six-tacos.jpg"
+import Burrito from "~/assets/images/gallery/sloppy-dish.jpg"
+import Special from "~/assets/images/special-dish.jpg"
 ---
 
 <Layout title="Home" pageTitle="Home" description="Welcome to our restaurant!">
 	<Section class:list={"bg-white"}>
 		<Hero>
 			<div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
-				<Badge title="il ristorante italiana" />
-				<h1 class="font-black">Real Italian food in a real Italian restaurant...</h1>
+				<Badge title="Authentic mexican food" />
+				<h1 class="font-black">Real Mexican food in a real Mexican restaurant</h1>
 
 				<p>
-					Experience the taste of Italy with our authentic dishes made from the finest ingredients. Indulge in
-					our wide variety of pizzas, pastas, and desserts, all crafted with love and tradition. Whether
-					you're dining in or taking out, we promise a memorable culinary experience.
+					Experience the most authentic Mexican food made with real fresh ingredients. 
+					Enjoy our specialty dishes, from delicious meat choices and a variety of sides. 
+					
 				</p>
 
-				<span class="text-brand-green font-medium">✔ We also deliver</span>
 
 				<div class="mt-8 flex items-center gap-x-8">
 					<Button url="/book">Book now</Button>
@@ -44,8 +47,8 @@ import Mussels from "~/assets/images/mussels2.png";
 			</div>
 			<div slot="hero-content-right">
 				<Picture
-					class:list={"mx-auto"}
-					src={PizzaHero}
+					class={"mx-auto rounded-2xl w-150 h-150 object-cover"}
+					src={RiceHero}
 					height={600}
 					formats={["avif", "webp"]}
 					alt="A description of my image."
@@ -62,55 +65,58 @@ import Mussels from "~/assets/images/mussels2.png";
 		<Heading>
 			<h2 slot="heading-title" class="font-black text-brand-green h2">Our dishes</h2>
 			<p slot="heading-content">
-				Explore our selection of authentic Italian dishes, from classic pizzas to homemade pastas.
+				Explore our selection of authentic Mexican dishes, from classic dishes to homemade sauces.
 			</p>
 		</Heading>
 
 		<Grid>
 			<div slot="grid-content-1">
-				<div class="flex flex-col items-center prose text-center">
+				<div class="flex flex-col items-center  text-center">
 					<Picture
-						class:list={"not-prose w-full h-auto"}
-						src={Pizza}
+						class:list={"my-10 rounded-2xl h-70 w-70 object-cover"}
+						src={SixTacos}
 						formats={["avif", "webp"]}
-						alt="A description of my image."
+						alt=""
 					/>
-					<h3 class="h4 mt-0 font-black">Pasta &amp; Spaghetti</h3>
+					<h3 class="h4 mt-0 font-black">Tacos</h3>
 					<p>
-						Pasta is a staple of Italian cuisine, with a rich history dating back centuries. It comes in
-						various shapes and sizes, each suited to different sauces and preparations.
+						We have a wide range of tacos for you to choose from. 
+						Including a range of fillings and toppings, whether you want 
+						them for a side, or the main course, we are sure we have the taco you would love.
 					</p>
 				</div>
 			</div>
 
 			<div slot="grid-content-2">
-				<div class="flex flex-col items-center prose text-center">
+				<div class="flex flex-col items-center  text-center">
 					<Picture
-						class:list={"not-prose w-full h-auto"}
-						src={Spaghetti}
+						class:list={"my-10 rounded-2xl h-70 w-70 object-cover"}
+						src={Burrito}
 						formats={["avif", "webp"]}
-						alt="A description of my image."
+						alt=""
 					/>
-					<h3 class="h4 mt-0 font-black">Pasta &amp; Spaghetti</h3>
+					<h3 class="h4 mt-0 font-black">Burritos</h3>
 					<p>
-						Pasta is a staple of Italian cuisine, with a rich history dating back centuries. It comes in
-						various shapes and sizes, each suited to different sauces and preparations.
+						Burrito is a classic meal that everyone loves. We have a choice of 
+						meat burritos and vegetarian burritos with a large variety of fillings 
+						to choose from. Try them today!
 					</p>
 				</div>
 			</div>
 
 			<div slot="grid-content-3">
-				<div class="flex flex-col items-center prose text-center">
+				<div class="flex flex-col items-center  text-center">
 					<Picture
-						class:list={"not-prose w-full h-auto"}
-						src={Fish}
+						class:list={"my-10 rounded-2xl h-70 w-70 object-cover"}
+						src={Special}
 						formats={["avif", "webp"]}
-						alt="A description of my image."
+						alt=""
 					/>
-					<h3 class="h4 mt-0 font-black">Pasta &amp; Spaghetti</h3>
+					<h3 class="h4 mt-0 font-black">Specialty dishes</h3>
 					<p>
-						Pasta is a staple of Italian cuisine, with a rich history dating back centuries. It comes in
-						various shapes and sizes, each suited to different sauces and preparations.
+						Our specialty dishes are fan favorites. Made with fresh ingredients, 
+						our home menu dishes leave many guests satisfied. From fish to pork, 
+						we have just what you'd love.
 					</p>
 				</div>
 			</div>
