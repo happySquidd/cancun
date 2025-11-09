@@ -33,39 +33,30 @@ import reviews from "~/assets/images/reviews1.png"
 ---
 
 <Layout title="Home" pageTitle="Home" description="Welcome to our restaurant!">
-	<Section class:list={"bg-white"}>
-		<Hero>
-			<div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
-				<Badge title="Authentic mexican food" />
-				<h1 class="font-black">Real Mexican food in a real Mexican restaurant</h1>
+	<div class="relative grid place-items-center">
+		<Image
+			src={RiceHero}
+			alt=""
+			class="col-start-1 row-start-1 w-full h-full object-cover aspect-video"
+		/>
 
-				<p>
-					Experience the most authentic Mexican food made with real fresh ingredients. 
-					Enjoy our specialty dishes, from delicious meat choices and a variety of sides. 
-					
-				</p>
-
-
-				<div class="mt-8 flex items-center gap-x-8">
-					<Button url="/">Book now</Button>
-					<ButtonCallUs />
-				</div>
+		<div class="absolute inset-0 bg-black opacity-40 z-10"></div>
+		<div class="absolute inset-0 z-20 flex flex-col items-center justify-center p-8 text-white">
+			<h1 class="text-4xl font-bold text-center">Real Mexican Food</h1>
+			<div class="mt-8 flex items-center gap-x-8">
+				<Button url="/menu">View Menu</Button>
+				<ButtonCallUs />
 			</div>
-			<div slot="hero-content-right">
-				<Picture
-					class={"mx-auto rounded-2xl w-150 h-150 object-cover"}
-					src={RiceHero}
-					height={600}
-					formats={["avif", "webp"]}
-					alt="A description of my image."
-					loading={"eager"}
-					fetchpriority={"high"}
-				/>
-			</div>
-		</Hero>
-	</Section>
+		</div>
+	</div>
 
-	<WideImage image={DecorativeImage} alt="" class:list={"aspect-video lg:aspect-[16/6]"} />
+	<div class="relative">
+		<Image src={DecorativeImage} alt="" class:list={"object-cover object-center w-full aspect-video lg:aspect-[16/6]"} />
+		
+		<Button href="/gallery" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 px-6 py-3 bg-blend-darken rounded-lg hover:bg-none transition shadow-black shadow-[0_0_25px_var(--tw-shadow-color)]">
+			<h3 class="text-white">View Gallery</h3>
+		</Button>
+	</div>
 
 	<Section class:list={"bg-white"}>
 		<Heading>
