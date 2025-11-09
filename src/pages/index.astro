@@ -28,6 +28,7 @@ import Enchiladas from "~/assets/images/enchiladas.jpg"
 import Shrimp from "~/assets/images/gallery/jarritos-dish.jpg"
 import Sides from "~/assets/images/gallery/sloppy-dish.jpg"
 import Maps from "~/assets/images/maps_cancun.png"
+import Burritos from "~/assets/images/burritos.jpg"
 ---
 
 <Layout title="Home" pageTitle="Home" description="Welcome to our restaurant!">
@@ -77,7 +78,7 @@ import Maps from "~/assets/images/maps_cancun.png"
 			<div slot="grid-content-1">
 				<div class="flex flex-col items-center  text-center">
 					<Picture
-						class:list={"my-10 rounded-2xl h-70 w-70 object-cover"}
+						class:list={"my-10 rounded-2xl w-full aspect-square object-cover"}
 						src={SixTacos}
 						formats={["avif", "webp"]}
 						alt=""
@@ -94,8 +95,8 @@ import Maps from "~/assets/images/maps_cancun.png"
 			<div slot="grid-content-2">
 				<div class="flex flex-col items-center  text-center">
 					<Picture
-						class:list={"my-10 rounded-2xl h-70 w-70 object-cover"}
-						src={Burrito}
+						class:list={"my-10 rounded-2xl w-full aspect-square object-cover"}
+						src={Burritos}
 						formats={["avif", "webp"]}
 						alt=""
 					/>
@@ -111,7 +112,7 @@ import Maps from "~/assets/images/maps_cancun.png"
 			<div slot="grid-content-3">
 				<div class="flex flex-col items-center  text-center">
 					<Picture
-						class:list={"my-10 rounded-2xl h-70 w-70 object-cover"}
+						class:list={"my-10 rounded-2xl w-full aspect-square object-cover"}
 						src={Special}
 						formats={["avif", "webp"]}
 						alt=""
