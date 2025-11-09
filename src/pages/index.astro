@@ -29,6 +29,7 @@ import Shrimp from "~/assets/images/gallery/jarritos-dish.jpg"
 import Sides from "~/assets/images/gallery/sloppy-dish.jpg"
 import Maps from "~/assets/images/maps_cancun.png"
 import Burritos from "~/assets/images/burritos.jpg"
+import reviews from "~/assets/images/reviews1.png"
 ---
 
 <Layout title="Home" pageTitle="Home" description="Welcome to our restaurant!">
@@ -217,17 +218,13 @@ import Burritos from "~/assets/images/burritos.jpg"
 					</div>
 					<h2 slot="heading-title" class="font-black h4 text-center mt-0 mb-4">What our customers say...</h2>
 					<div slot="heading-content">
-						<p class="text-center">
-							Don't just take our word for it. Read what our customers have to say about their dining
-							experience at our restaurant.
-						</p>
 
 						<ReviewSlider />
 					</div>
 				</div>
 
 				<div slot="hero-content-right">
-					<Picture src={reviewAuthors} alt="Review authors" class="w-full h-auto" />
+					<Picture src={reviews} alt="Review authors" class="w-full h-auto" />
 				</div>
 			</Hero>
 		</div>
